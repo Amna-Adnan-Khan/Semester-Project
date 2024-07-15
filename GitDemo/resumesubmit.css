@@ -1,0 +1,52 @@
+
+#jobform{
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    background-color: brown;
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    text-align: center;
+    border-radius: 30%;
+    border: 5px solid black;
+    line-height: 20px;
+    margin-left: 50px;
+
+}
+
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url("cv.jpg");
+    background-size: cover;
+}
+#option{
+    background-color: black;
+    color: white;
+}
+button{
+    text-align: center;
+    background-color: green;
+    color: black;
+    border-radius: 20px;
+    border: 3px solid black;
+    cursor: pointer;
+    margin-left: 250px; 
+}
+
+#back{
+    text-align: right;
+    padding: 40px;
+    position: static;
+}
+
+
