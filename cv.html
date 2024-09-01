@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Upload</title>
+    <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Upload Your CV</h2>
+        <form action="/submit-cv" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="cv">Upload CV:</label>
+                <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    </div>
+        <div id="back">
+        <a href="project.php">Go Back</a>
+    </div>
+</body>
+</html>

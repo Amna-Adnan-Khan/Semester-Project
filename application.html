@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Tracker</title>
+    <link rel="stylesheet" href="application.css">
+</head>
+<body>
+    <header>
+        <h1>Application Tracker</h1>
+    </header>
+    <main>
+        <section id="add-application">
+            <h2><b>Track Your Application</b></h2>
+            <form id="application-form">
+                <label for="company"><b>Company</b></label>
+                <input type="text" id="company" name="company" required>
+                
+                <label for="position"><b>Enter Your Email</b></label>
+                <input type="text" id="position" name="position" required>
+                
+                <label for="status"><b>Status:</b></label>
+                <select id="status" name="status">
+                    <option value="applied">Applied</option>
+                    <option value="interview">At Compus</option>
+                    <option value="Offer">Part Time</option>
+                    <option value="Rejected">Full Time</option>
+                </select>
+                
+                <button type="submit"><b>Track Your Application Here</b></button>
+            </form>
+        </section>
+
+        <div id="back">
+            <a href="project.php">Go Back</a>
+        </div>
+</body>
+</html>

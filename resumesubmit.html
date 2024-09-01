@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Submission</title>
+    <link rel="stylesheet" href="resumesubmit.css">
+
+</head>
+<body>
+    <header>
+    <h1><b>Submit your resume here</b></h1>
+    </header>
+    <br>
+    <div id="jobform">
+        <form class="box1">
+            <br>
+                <b><label for="First Name">First Name:</label></b>
+                <input type="text"  placeholder="Enter Your First Name" id="First Name*"required>
+                <br>
+                <br>
+
+                <b><label for="last Name">Last Name:</label></b>
+                <input type="text"  placeholder="Enter Your Last Name" id="Last Name*" required>
+                <br>
+                <br>
+
+                <b><label for="E-mail">E-mail:</label></b>
+                <input type="email"  placeholder="Enter Your E-mail" id="E-mail*" required>
+                <br>
+                <br>
+
+                <b><label for="Address">Address:</label></b>
+                <input type="text" placeholder="Enter Address" id="Address"></input>
+                <br>
+                <br>
+        
+                <b><label for="City">City:</label></b>
+                <input type="text" placeholder="Enter City" id="City*" required></input>
+                <br>
+                <br>
+
+                <b><label for="Pincode">Pincode:</label></b>
+                <input type="number" placeholder="Enter Pincode" id="Pincode"></input>
+                <br>
+                <br>
+        
+                <b><label for="Date">Date:</label></b>
+                <input type="datetime" placeholder="01/12/2015" id="Date"></input>
+                <br>
+                <br>
+
+                <select  id="option" name="option">
+                    <option value="">Select Your Job Here</option>
+                    <option value="Frontend">Frontend developement</option>
+                    <option value="Backend">Backend developement</option>
+                    <option value="Marketing">Manager</option>
+                    <option value="Software Engineering">Software Engineering</option>
+                    <option value="Electrical Engineering">Electrical Engineering</option>
+                    <option value="App developement">Wesite developement</option>
+                </select>
+                <br>
+                <br>
+      
+                <div class="container">
+                    <form action="/submit-cv" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                            <label for="cv">Upload CV:</label>
+                            <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+                        </div>
+                <br>
+                <br>
+      
+                <div class="container">
+                    <h2><button type="submit">Submit</button></h2>
+                </div>    
+                <br>
+                <br>
+            </form>
+    </div>
+</div>
+<div id="back">
+<a href="project.php">Go Back</a>
+</div>
+</body>
+</html>
